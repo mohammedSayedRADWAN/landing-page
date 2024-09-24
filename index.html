@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css"
+    integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>my landing page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact me</a></li>
+
+    </ul>
+  </nav>
+  <header>
+    <button id="toggle" class="toggle">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,300,150">
+        <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+          stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+          font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+          <g transform="scale(5.12,5.12)">
+            <path d="M5,9v2h40v-2zM5,24v2h40v-2zM5,39v2h40v-2z"></path>
+          </g>
+        </g>
+      </svg>
+    </button>
+    <h1>my landing page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquid id suscipit eligendi, autem adipisci
+      velit. Praesentium totam optio assumenda vero quis consequatur, aperiam voluptas dolorum dolore ducimus hic
+      laudantium.</p>
+    <button class="cta-btn" id="open">Sign Up</button>
+  </header>
+  <div class="container">
+    <h2>what is this landing page about</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque a minus veniam iusto molestias nostrum
+      maxime fugiat inventore dolorem facere repellendus, expedita distinctio neque corrupti mollitia obcaecati. Veniam,
+      animi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint laboriosam veritatis asperiores provident nisi
+      voluptates aperiam corrupti esse inventore impedit.</p>
+    <h2>
+      Tell me more
+    </h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, aut amet excepturi quidem obcaecati beatae quis
+      fugit ea eos non illum, velit molestias nobis voluptate voluptatum tempore. Quis doloremque illo cum alias
+      cupiditate quo laborum nisi, nobis, eos, qui esse?</p>
+    <h2>Benefits</h2>
+    <ul>
+      <li>life time access</li>
+      <li>30 Day money back</li>
+      <li>tailored customer support</li>
+    </ul>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, voluptate aspernatur ut necessitatibus,
+      aliquid nisi laudantium tempore vitae repellendus eveniet consequatur at soluta laborum, voluptates ipsa fuga
+      fugiat maxime dolore. Vero quas temporibus corporis nisi rem reiciendis suscipit est. Nulla veniam dignissimos
+      mollitia harum ex minus incidunt quos, quidem iure corporis quo nostrum eos, distinctio deserunt voluptates eaque
+      error optio fuga architecto sed ea libero! Minus ducimus impedit temporibus iure?</p>
+
+  </div>
+  <!--Modal -->
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/close-window.png"
+          alt="close-window" />
+      </button>
+      <div class="modal-header">
+        <h3>Sign Up</h3>
+      </div>
+      <div class="modal-content">
+        <p>register with up to get offers,support and more</p>
+        <form class="modal-form" id="form">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Name" class="form-input">
+            <small>Erorr message</small>
+          </div>
+          <div class="form-control">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Enter email" class="form-input">
+            <small>Erorr message</small>
+          </div>
+          <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password" class="form-input">
+            <small>Erorr message</small>
+          </div>
+          <div class="form-control">
+            <label for="password2">Confirm password</label>
+            <input type="password" id="password2" placeholder="Enter password" class="form-input">
+            <small>Erorr message</small>
+          </div>
+          <input type="submit" value="Submit" class="submit-btn">
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
