@@ -4,7 +4,7 @@
 
 Simple landing page with sliding menu and modal
 
-## Link wepsite
+## Link wepsite:
 
 https://personal7portofolio.netlify.app
 
