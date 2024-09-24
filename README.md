@@ -4,6 +4,10 @@
 
 Simple landing page with sliding menu and modal
 
+## Link wepsite
+
+https://personal7portofolio.netlify.app
+
 ## Project Specifications
 
 - Create and style landing page
